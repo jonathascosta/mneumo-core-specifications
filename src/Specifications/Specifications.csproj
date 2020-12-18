@@ -1,9 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>Mneumo.Core.Specifications</AssemblyName>
     <RootNamespace>Mneumo.Core.Specifications</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Jonathas Costa</Authors>
+    <Company>Mneumo</Company>
+    <Description>Implementation of Specification pattern</Description>
   </PropertyGroup>
 
 </Project>
