@@ -27,3 +27,5 @@ jobs:
       uses: brandedoutcast/publish-nuget@v2.5.5
       with:
         PROJECT_FILE_PATH: ./src/Specifications/Specifications.csproj
+        PACKAGE_NAME: Mneumo.Core.Specifications
+        NUGET_KEY: oy2kkymn5px7lw7lqq6qvp5cjrtwac5exmgdcgjqu7zfqu
