@@ -3,6 +3,10 @@ using System.Linq.Expressions;
 
 namespace Mneumo.Core.Specifications
 {
+    /// <summary>
+    /// Combines two specifications into one.
+    /// </summary>
+    /// <typeparam name="T">Object type to be tested.</typeparam>
     public abstract class CompositeSpecification<T> : Specification<T>
     {
         private readonly Func<Expression, Expression, Expression> _operation;
