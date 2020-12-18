@@ -9,6 +9,7 @@
     <Authors>Jonathas Costa</Authors>
     <Company>Mneumo</Company>
     <Description>Implementation of Specification pattern</Description>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
 </Project>
