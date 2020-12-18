@@ -23,3 +23,7 @@ jobs:
       run: dotnet build --no-restore  ./src
     - name: Test
       run: dotnet test --no-build --verbosity normal  ./src
+    - name: Publish NuGet
+      uses: brandedoutcast/publish-nuget@v2.5.5
+      with:
+        PROJECT_FILE_PATH: ./src/\Specifications/Specifications.csproj
